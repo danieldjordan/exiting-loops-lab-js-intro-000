@@ -1,6 +1,6 @@
 function breakout(array, changeValue, stopValue){
-  for (let i = 0; i < mostlyOne.length; i++) {
-  if (mostlyOne[i] !== 1) {
+  for (let i = 0; i < array.length; i++) {
+  if (array[i] !== stopValue) {
     notOne = mostlyOne[i]
     break
   }
